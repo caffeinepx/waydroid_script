@@ -11,7 +11,7 @@ This forked is to fix some bug that I encounter for android 11 waydroid only. If
 ## Interactive terminal interface
 
 ```
-https://github.com/musdx/waydroid_script
+git clone https://github.com/caffeinepx/waydroid_script
 cd waydroid_script
 python3 -m venv venv
 venv/bin/pip install -r requirements.txt
@@ -29,7 +29,7 @@ sudo venv/bin/python3 main.py
 ## Command Line
 
 ```bash
-https://github.com/musdx/waydroid_script
+git clone https://github.com/caffeinepx/waydroid_script
 cd waydroid_script
 python3 -m venv venv
 venv/bin/pip install -r requirements.txt
@@ -101,11 +101,13 @@ Open terminal and switch to directory where "main.py" is located then run:
 
 ## Install libhoudini arm translation
 
-Intel's libhoudini for intel/AMD x86 CPU, pulled from Microsoft's WSA 11 image
+Intel's libhoudini for intel/AMD x86 CPU, pulled from Google Play Games for PC (HPE) image
 
-houdini version: 11.0.1b_y.38765.m
+houdini version: 14.0.0_y.GoogleGame_com1.3
 
-houdini64 version: 11.0.1b_z.38765.m
+houdini64 version: 14.0.0_z.GoogleGame_com1.3
+
+HPE Android image fingerprint: google/kiwi_x86_64_dev/vsoc_kiwi_x86_64:14/UKW1.260829.001/16213459:user/release-keys
 
 Open terminal and switch to directory where "main.py" is located then run:
 
