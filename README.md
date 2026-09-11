@@ -1,10 +1,7 @@
 # Waydroid Extras Script
-
-DO NOT USE MAGISK FOR NOW: https://www.reddit.com/r/Magisk/comments/1jxm1h5/discussion_kitsune_mask_maintainer_huskydg_github/
-
 Script to add GApps and other stuff to Waydroid!
 
-This forked is to fix some bug that I encounter for android 11 waydroid only. If there is issue with android 13, I won’t touch it, unless casualsnek fix it in the main repo.
+This forked is to fix some stuff for android 13 waydroid only.
 
 # Installation/Usage
 
@@ -72,22 +69,6 @@ After waydroid has finished booting, open terminal and switch to directory where
     sudo python3 main.py google
 Copy the returned numeric ID, then open ["https://google.com/android/uncertified/?pli=1"](https://google.com/android/uncertified/?pli=1). Enter the ID and register it. Wait 10-20 minutes for device to get registered. Then clear Google Play Service's cache and try logging in!
 
-
-## Install Magisk
-
-![](assets/2.png)
-
-Open terminal and switch to directory where "main.py" is located then run:
-
-    sudo venv/bin/python3 main.py install magisk
-
-Magisk will be installed on next boot!
-
-Zygisk and modules like LSPosed should work now.
-
-If you want to update Magisk, Please use `Direct Install into system partition` or run this sript again.
-
-This script only focuses on Magisk installation, if you need more management, please check https://github.com/nitanmarcel/waydroid-magisk
 
 ## Install libndk arm translation
 
